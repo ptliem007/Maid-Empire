@@ -1,0 +1,174 @@
+
+game.png
+size: 650,1000
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+NationIcons/Maid Empire
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Maid Mansion
+  rotate: false
+  xy: 200, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Musketmaid
+  rotate: false
+  xy: 0, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Riflemaid
+  rotate: false
+  xy: 0, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Great War Maid Infantry
+  rotate: false
+  xy: 0, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Maid Infantry
+  rotate: false
+  xy: 0, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Maid Legion
+  rotate: false
+  xy: 200, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Maid Artillery
+  rotate: false
+  xy: 200, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Spider Tank
+  rotate: false
+  xy: 200, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Head Maid
+  rotate: false
+  xy: 200, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/MF 8
+  rotate: false
+  xy:400, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/MB 11
+  rotate: false
+  xy:400, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/MF 14
+  rotate: false
+  xy:400, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Z-Destroyer
+  rotate: false
+  xy:400, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+UnitIcons/Maid Cruiser
+  rotate: false
+  xy:400, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 200, 200
+  index: -1
+TileSets/FantasyHex/Units/Musketmaid
+  rotate: false
+  xy: 600, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Riflemaid
+  rotate: false
+  xy: 600, 28
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great War Maid Infantry
+  rotate: false
+  xy: 600, 56
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Maid Infantry
+  rotate: false
+  xy: 600, 84
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Maid Legion
+  rotate: false
+  xy: 600, 112
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spider Tank
+  rotate: false
+  xy: 600, 140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Maid Cruiser
+  rotate: false
+  xy: 600, 168
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Head Maid
+  rotate: false
+  xy: 600, 196
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Maid Trooper
+  rotate: false
+  xy: 600, 224
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
