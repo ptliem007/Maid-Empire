@@ -180,6 +180,7 @@
 		"movement": 6,
 		"strength": 55,
 		"rangedStrength": 45,
+		"interceptRange": 2,
 		"range": 2,
 		"cost": 375,
 		"requiredTech": "Electronics",
