@@ -169,9 +169,8 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": ["Can attack submarines", "[40]% chance to intercept air attacks",
+		"uniques": ["Can attack submarines", "[40]% chance to intercept air attacks", "Bonus vs City 25%",
 			"May withdraw before melee ([50]%)", "Bonus vs WaterSubmarine 100%", "Can move after attacking"],
-		"promotions": ["Siege"],
 	},
 	{
 		"name": "Maid Cruiser",
