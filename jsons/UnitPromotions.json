@@ -1,7 +1,6 @@
 [
 	{
 		"name": "Maid Trooper",
-		"effect": "This unit heals 5 additional HP outside of friendly territory.",
-		"uniques": ["Bonus vs City 50%"],
+		"uniques": ["Bonus vs City 50%", "+[10]% combat bonus in [Friendly Land]"],
 	},
 ]
