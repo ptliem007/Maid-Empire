@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Musketmaid",
-		"unitType": "Melee",
+		"unitType": "Gunpowder",
 		"replaces": "Musketman",
 		"uniqueTo": "Maid Empire",
 		"movement": 2,
@@ -16,7 +16,7 @@
 	},
 	{
 		"name": "Riflemaid",
-		"unitType": "Melee",
+		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
 		"uniqueTo": "Maid Empire",
 		"movement": 2,
@@ -31,7 +31,7 @@
 	},
 	{
 		"name": "Great War Maid Infantry",
-		"unitType": "Melee",
+		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
 		"uniqueTo": "Maid Empire",
 		"movement": 2,
@@ -46,7 +46,7 @@
 	},
 	{
 		"name": "Maid Infantry",
-		"unitType": "Melee",
+		"unitType": "Gunpowder",
 		"replaces": "Infantry",
 		"uniqueTo": "Maid Empire",
 		"movement": 2,
@@ -61,7 +61,7 @@
 	},
 	{
 		"name": "Maid Legion",
-		"unitType": "Melee",
+		"unitType": "Gunpowder",
 		"replaces": "Mechanized Infantry",
 		"uniqueTo": "Maid Empire",
 		"movement": 3,
@@ -83,13 +83,13 @@
 		"cost": 320,
 		"requiredTech": "Dynamite",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus",
-			"Must set up to ranged attack","Limited Visibility","Ranged attacks may be performed over obstacles"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight","Ranged attacks may be performed over obstacles"],
 		"promotions": ["Maid Trooper", "Medic"],
 	},
 	{
 		"name": "Spider Tank",
-		"unitType": "Armor",
+		"unitType": "Armored",
 		"replaces": "Tank",
 		"uniqueTo": "Maid Empire",
 		"movement": 5,
@@ -115,7 +115,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "MF 14",
-		"uniques": ["[100]% chance to intercept air attacks", "+[150]% Strength vs [Bomber]",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>",
 			"6 tiles in every direction always visible"],
 		"promotions": ["Bombardment I"],
 		"attackSound": "shot"
@@ -150,15 +150,13 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks",
-			"+[150]% Strength vs [Bomber]",
-			"6 tiles in every direction always visible"],
+		"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","6 tiles in every direction always visible"],
 		"promotions": ["Bombardment I"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "Z-Destroyer",
-		"unitType": "WaterMelee",
+		"unitType": "Melee Water",
 		"replaces": "Destroyer",
 		"uniqueTo": "Maid Empire",
 		"movement": 7,
@@ -166,12 +164,12 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Combustion",
-		"uniques": ["Can attack submarines", "[40]% chance to intercept air attacks", "+[50]% Strength vs [City]",
-			"May withdraw before melee ([50]%)", "+[100]% Strength vs [WaterSubmarine]", "Can move after attacking"],
+		"uniques": ["Can attack submarines", "[40]% chance to intercept air attacks", "[+50]% Strength <vs cities><when attacking>",
+			"May withdraw before melee ([50]%)", "[+100]% Strength <vs [Submarine] units>", "Can move after attacking"],
 	},
 	{
 		"name": "Maid Cruiser",
-		"unitType": "WaterRanged",
+		"unitType": "Ranged Water",
 		"uniqueTo": "Maid Empire",
 		"movement": 6,
 		"strength": 55,
@@ -182,7 +180,7 @@
 		"requiredTech": "Electronics",
 		"upgradesTo": "Missile Cruiser",
 		"uniques": ["Can attack submarines", "[60]% chance to intercept air attacks",
-			"+[100]% Strength vs [WaterSubmarine]", "Ranged attacks may be performed over obstacles"],
+			"[+100]% Strength <vs [Submarine] units>", "Ranged attacks may be performed over obstacles"],
 		"promotions": ["Targeting I"]
 	},
 	{
@@ -191,7 +189,7 @@
 		"uniqueTo": "Maid Empire",
 		"replaces": "Great General",
 		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
-			"Great Person - [War]", "Unbuildable", "[+1] Visibility Range", "Invisible to others"],
+			"Great Person - [War]", "Unbuildable", "[+1] Sight", "Invisible to others"],
 		"movement": 3
 	},
 ]
